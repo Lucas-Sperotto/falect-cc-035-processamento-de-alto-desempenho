@@ -1,0 +1,52 @@
+# Compilação
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.ptx
+*.cubin
+a.out
+teste_openmp
+teste_mpi
+
+# Depuração e profiling
+core
+core.*
+vgcore.*
+gmon.out
+perf.data*
+
+# Entregas e diagnósticos locais
+diagnostico-ambiente-pad.txt
+entregas-sigaa/
+relatorio-sigaa*.pdf
+
+# Editor e sistema operacional
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ambientes auxiliares
+__pycache__/
+*.py[cod]
+.venv/
+*.class
+
+# Segredos locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
