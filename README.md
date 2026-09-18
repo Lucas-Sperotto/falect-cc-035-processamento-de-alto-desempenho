@@ -14,6 +14,8 @@ Este repositório reúne orientações, materiais, exemplos e atividades da disc
 - [Política de GitHub](POLITICA_GITHUB.md)
 - [Política de uso de IA](POLITICA_IA.md)
 - [EAD 01 — preparação do ambiente](ead/EAD_01_PREPARACAO_AMBIENTE_DESENVOLVIMENTO.md)
+- [Códigos-fonte](src/README.md)
+- [Threads, MIMD e Fork–Join](src/threads/README.md)
 
 ## Ambiente de trabalho
 
@@ -23,6 +25,7 @@ As práticas usam principalmente:
 - Visual Studio Code;
 - Git e GitHub;
 - C/C++, OpenMP, MPI e CUDA;
+- Java, Python e Julia em exemplos comparativos quando indicado;
 - ferramentas de compilação, depuração e medição de desempenho.
 
 Siga o roteiro da EAD 01 antes de instalar ferramentas adicionais. CUDA depende de hardware e infraestrutura compatíveis; as alternativas para quem não dispõe de GPU NVIDIA serão indicadas pelo professor.
@@ -65,7 +68,9 @@ Consulte a [política de GitHub](POLITICA_GITHUB.md) antes da primeira entrega. 
 - [`aulas/`](aulas/): materiais dos encontros;
 - [`ead/`](ead/): atividades e materiais da carga a distância;
 - [`atividades/`](atividades/): enunciados e arquivos iniciais;
-- [`exemplos/`](exemplos/): códigos demonstrativos;
+- [`src/`](src/): códigos-fonte organizados por tema e tecnologia;
+- [`scripts/`](scripts/): scripts de verificação, compilação e execução;
+- [`exemplos/`](exemplos/): exemplos curtos ou auxiliares;
 - [`rubricas/`](rubricas/): critérios específicos de avaliação;
 - [`templates/`](templates/): modelos de documentação e entrega.
 
